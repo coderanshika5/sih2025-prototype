@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-bg {
+  height: 180px;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* For cards without images */
+.card:not(:has(.card-bg)) {
+  background: #f0f8ff; /* light blue background */
+}

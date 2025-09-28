@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgb(6,107,107);
+  border-top: rgb(6,107,107);
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Brand colors */
+.instagram {
+  color: #000000;
+}
+
+.facebook {
+  color: #000000;
+}
+
+.twitter {
+  color: #000000; /* black for X */
+}

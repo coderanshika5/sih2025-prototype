@@ -9,7 +9,7 @@ import Card from "../components/Card";
 function Home() {
   return (
     <div className="page">
-      <h2>Welcome to Spirited-Globe</h2>
+      <h2>Welcome to Healing Sphere</h2>
       <p>A Digital Psychological Intervention Platform for College Students</p>
       <div className="card-grid">
         <Card

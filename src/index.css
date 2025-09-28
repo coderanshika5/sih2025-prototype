@@ -11,16 +11,27 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: teal;
+  background-color: rgb(6, 107, 107);
   color: white;
   padding: 15px 30px;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
 }
-
+.logo-icon{
+  height: 80px;
+  width: 100px;
+  object-fit: contain;
+  }
+.logo-text{
+  height: 80px;
+  width: 100;
+  object-fit: contain;
+}
 .nav-links {
   list-style: none;
   display: flex;
